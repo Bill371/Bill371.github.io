@@ -3,3 +3,64 @@ layout: default
 title: Prototype Magnet For Canadian Light Source 2.0
 ---
 <h1>{{page.title}}</h1>
+
+<h2>Overview</h2>
+<p>
+  My undergrad engineering thesis consisted of a group project to design a prototype 
+  dipole magnet for a potential new Canadian Light Source 2.0. Information on the current 
+  Canadian Light Source can be found <a href=”https://www.lightsource.ca/”>here</a>. 
+  The dipole magent would be used within the electron storage ring of the new light source 
+  bendining the electron beam creating a large loop.  This consisted of designing a dipole 
+  core structure and electrical windings to produce a specified magnetic field map. The 
+  dipole face was designed to produce a vertical magnetic field with a small gradient 
+  allowing a smaller magnetific field on the outter edge. This compensated for the different 
+  path the electrons took within the magent field depending on how far they were from the centre.
+</p>
+
+<h2>Prototype</h2>
+<p>
+  A small prototype magent was crafted in order to verify that the magnetic field created matched 
+  simulation work conducted on Finite Element Method Magnetics (FEMM). The prototype was scaled down 
+  to 50% for the length and width while the length was reduced to 10%. The magnets core was designed 
+  in SolidWorks using the shape developed from FEMM. 
+</p>
+
+<img src="isometricView.png" alt="SolidWorks model of prototype magnet" style="width:400px">
+
+<p>
+  The prototype was machined from two solid blocks of low carbon steel creating only one connection. 
+  By using only two pieces this reduced slack casued through multiple connections allowing for improved 
+  alignment, plus a reduction in air gaps which would affect the magnetic field strength. 
+</p>
+
+<img src="core.jpg" alt="Prototype magnet core" style="width:400px">
+
+<p>
+  Due to the large size of the magnet a small defect from tool deflection formed on the dipole face. 
+  This affect is noticeable in the final magnetic field data across the horizontal plane, however, 
+  shows little affect to the overall vertical magnetic field.
+</p>
+
+<img src="machining_Defect.jpg" alt="Machining defect" style="width:550px">
+
+<p>
+  Cooper wire was wrapped around the core’s dipole faces as shown below on the upper and lower sections. 
+  The top and bottom sections were connected in one single loop of wire to maintain a constant current 
+  between the two sections. A current of 5 Amps was then passed through the wires creating a magnetic flux 
+  within the core, and thus producing a magnetic field between the dipole faces.
+</p>
+
+<img src="topView.jpg" alt="Top view of core bottom structure with copper windings" style="width:650px">
+
+<p>
+  The magnet field was measured and mapped across the horizontal plane between the two dipole faces. Due 
+  to a slight misalignment of the magnet and sensor a post data correction was needed to realign the data 
+  along the dipole face. With scaling the target of the prototype magnet was to achieve less than a 0.1% 
+  difference in measured magnetic field from the predefined magnetic field map over a 5-millimetre range. 
+  As shown in the last picture the magnetic field of the prototype magnet stayed within this desired limit 
+  and verified that our design produced the desired magnetic field strength and shape.
+</p>
+
+<img src="magneticFieldContour_By_5A.png" alt="Map of vertical magnetic field" style="width:650px">
+
+<img src="goodFieldWidth_Zoomed_By_5A.png" alt="Percentage difference from desired field strength over good field region" style="width:650px">
